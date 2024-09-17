@@ -3,7 +3,7 @@ Slicing Syntax
 collection[start:stop:step]
 
 start (inclusive) default 0
-end   (exclusive) default last index
+stop  (exclusive) default last index
 step  default is 1 (optional)
 
 ** The slicing syntax works for string, list, and tuple types.
