@@ -9,6 +9,7 @@ filename = input("Enter a filename: ")
 dot_index = filename.index('.')
 
 file_extension_start_index = dot_index + 1
+
 file_extension = filename[file_extension_start_index:]
 
 print(f"File extension: {file_extension}")
